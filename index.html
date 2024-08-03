@@ -42,17 +42,21 @@
         .section h2 {
             color: #34495e;
         }
-        .services {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
         .service {
             background-color: #ecf0f1;
             padding: 20px;
             border-radius: 8px;
-            width: calc(33.333% - 40px);
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .service-content {
+            width: 60%;
+        }
+        .service img {
+            width: 40%;
+            border-radius: 8px;
         }
         .service h3 {
             margin-top: 0;
@@ -70,7 +74,7 @@
             background-color: #2c3e50;
             color: #ecf0f1;
             text-align: center;
-            padding: 10px 0;
+            padding: 1px 0;
             position: fixed;
             width: 100%;
             bottom: 0;
@@ -94,27 +98,66 @@
         </section>
         <section id="services" class="section">
             <h2>Our Services</h2>
-            <div class="services">
-                <div class="service">
+            <div class="service">
+                <div class="service-content">
                     <h3>IV Curve Testing</h3>
                     <p>Analyze and optimize the performance of solar panels through precise IV Curve Testing.</p>
+                    <p>Increase solar efficiency through precision evaluation, issue identification, and optimum performance for maximum energy production.</p>
+                    <ul>
+                        <li><strong>Efficient Evaluation:</strong> Swiftly assesses voltage-current relationships, identifying shading, soiling, series resistance, and module mismatch using specialized curve tracers.</li>
+                        <li><strong>Troubleshooting and Analytics:</strong> IV Testing reduces startup risks, speeds up troubleshooting, and enhances performance modeling with detailed reports and actionable analytics.</li>
+                        <li><strong>Quick Evaluation, Less Downtime:</strong> Ensures a rapid 15-second per string evaluation, minimizing system downtime and enabling early-stage testing without activating inverters.</li>
+                    </ul>
                 </div>
-                <div class="service">
+                <img src="iv_testing_image.jpg" alt="IV Curve Testing">
+            </div>
+            <div class="service">
+                <div class="service-content">
                     <h3>EL Testing</h3>
                     <p>Detect potential issues with Electroluminescence Testing to ensure the health of your solar modules.</p>
+                    <ul>
+                        <li><strong>Defect Visualization:</strong> Futr OS EL Testing uses Electroluminescence to visualize current distribution in PV cells, detecting microcracks, cell cracks, and soldering defects early.</li>
+                        <li><strong>Comprehensive Identification:</strong> Covers defects like PID, diode failures, and dead cells for a thorough assessment of solar module integrity.</li>
+                        <li><strong>Proactive Assurance:</strong> Adopts a proactive approach by addressing microcracks, cell cracks, and cold soldering defects, ensuring structural soundness and long-term performance optimization.</li>
+                    </ul>
                 </div>
-                <div class="service">
+                <img src="el_testing_image.jpg" alt="EL Testing">
+            </div>
+            <div class="service">
+                <div class="service-content">
                     <h3>Hand Thermography</h3>
-                    <p>Use thermal imaging to identify and address hotspots and other anomalies in your solar systems.</p>
+                    <p>Identify and Address Hotspots and Anomalies in Solar Systems.</p>
+                    <ul>
+                        <li><strong>Thermal Imaging:</strong> Use advanced thermal imaging to detect and analyze hotspots and anomalies in solar panels.</li>
+                        <li><strong>Preventive Maintenance:</strong> Enable proactive maintenance by identifying potential issues before they escalate.</li>
+                        <li><strong>Optimized Performance:</strong> Ensure optimal performance and longevity of solar installations through precise thermal assessments.</li>
+                    </ul>
                 </div>
-                <div class="service">
+                <img src="thermography_image2.jpg" alt="Hand Thermography">
+            </div>
+            <div class="service">
+                <div class="service-content">
                     <h3>Barcode Scanning</h3>
-                    <p>Efficient tracking and management of solar panels through accurate barcode scanning.</p>
+                    <p>Efficient Tracking and Management of Solar Panels.</p>
+                    <ul>
+                        <li><strong>Accurate Tracking:</strong> Utilize barcode scanning for precise tracking of solar panel installations.</li>
+                        <li><strong>Inventory Management:</strong> Streamline inventory management with reliable barcode scanning technology.</li>
+                        <li><strong>Data Integration:</strong> Integrate barcode data seamlessly with existing systems for efficient operations.</li>
+                    </ul>
                 </div>
-                <div class="service">
+                <img src="barcode_scanning_image.png" alt="Barcode Scanning">
+            </div>
+            <div class="service">
+                <div class="service-content">
                     <h3>Digital Twin Mapping</h3>
-                    <p>Create a virtual replica of your solar PV plant for advanced monitoring and maintenance.</p>
+                    <p>Create a Virtual Replica of Your Solar PV Plant for Advanced Monitoring.</p>
+                    <ul>
+                        <li><strong>Virtual Replication:</strong> Develop a digital twin of your solar PV plant for real-time monitoring and analysis.</li>
+                        <li><strong>Predictive Maintenance:</strong> Use digital twins to predict and prevent potential issues, enhancing plant reliability.</li>
+                        <li><strong>Performance Optimization:</strong> Optimize performance through detailed simulations and data-driven insights.</li>
+                    </ul>
                 </div>
+                <img src="digital_twin_mapping_image.png" alt="Digital Twin Mapping">
             </div>
         </section>
         <section id="contact" class="section">
